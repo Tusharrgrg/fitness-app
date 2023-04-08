@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Pagination from '@mui/material/Pagination';
 import { Box, Stack, Typography } from '@mui/material';
 
-import { exerciseOptions, fetchData } from '../../src/utils/fetchData';
+import { exerciseOptions, fetchData } from '../utils/fetchData.js';
 import ExerciseCard from './ExerciseCard';
 import Loader from './Loader';
 
